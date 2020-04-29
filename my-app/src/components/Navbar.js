@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+// import styled from 'styled-components'
 // import logo from '../logo1.png'
+import { ButtonContainer } from './Button'
+
 
 export default class Navbar extends Component {
   render() {
@@ -10,7 +13,7 @@ export default class Navbar extends Component {
        <img src={logo} alt="logo-cooksoo" className="navbar-brand" width="140px" height="60px" />
           </Link> */}
           <Link to="/">
-              <span>Cooksoo</span>
+              Cooksoo
           </Link>
           <ul className="navbar-nav align-items-center">
               <li className="nav-item ml-5">
@@ -35,13 +38,13 @@ export default class Navbar extends Component {
               </li>
           </ul>
           <Link to="./cart" className="ml-auto">
-              <button>
-                  <i className="fas fa-cart-plus"></i>
+              <ButtonContainer>
+                  {/* <i className="fas fa-cart-plus"></i> */}
                   Корзина
-              </button>
-
+              </ButtonContainer>
           </Link>
          </nav>
       )
   }
 };
+
