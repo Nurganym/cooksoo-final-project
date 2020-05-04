@@ -10,8 +10,11 @@ export default class Product extends Component {
           <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3
           my-3">
               <div className="card">
-               <div className="img-conteiner p-5" onClick={console.log('you clicked me')}>
-
+               <div className="img-conteiner p-5" onClick={console.log('you clicked me on the image container')
+            }>
+            <Link to="/details">
+                <img src={img} alt="товар" className="card-img-top" />
+            </Link>
                </div>
               </div>
           </ProductWrapper>
