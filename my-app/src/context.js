@@ -25,8 +25,8 @@ const ProductContext = React.createContext();
      handleDetail = () => {
          console.log('hello from detail')
      }
-     addToCart = () => {
-         console.log('hello add to cart')
+     addToCart = (id) => {
+         console.log(`hello add to cart.id is ${id}`)
      }
     render() {
         return(
