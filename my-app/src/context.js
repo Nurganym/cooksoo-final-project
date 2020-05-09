@@ -8,7 +8,10 @@ const ProductContext = React.createContext();
      state = {
          products:[], 
          detailProduct: detailProduct,
-         cart:[]
+         cart:[],
+         cartSubTotal:0,
+         cartTax:0,
+         cartTotal:0
      };
      componentDidMount() {
          this.setProducts();
@@ -49,12 +52,29 @@ const ProductContext = React.createContext();
             console.log(this.state)
         })
      }
+     increment = (id) =>{
+        console.log('it is increment')
+     };
+     decrement = (id) =>{
+        console.log('it is decrement')
+     };
+     removeItem = (id) =>{
+         console.log('item removed')
+     };
+     clearCart = () =>{
+     console.log('cart was cleared')
+     }
     render() {
         return(
-            <ProductContext.Provider value={{
-      ...this.state,
-      handleDetail:this.handleDetail,
-      addToCart:this.addToCart,
+            <ProductContext.Provider
+             value={{
+              ...this.state,
+              handleDetail:this.handleDetail,
+              addToCart:this.addToCart,
+              increment:this.increment,
+              decrement:this.decrement,
+              removeItem:this.removeItem,
+              clearCart:this.clearCart
             }}>
              {this.props.children}
             </ProductContext.Provider>
