@@ -6,7 +6,7 @@ export default function CartItem({item,value}) {
     return(
         <div className="row my-2 text-center">
            <div className="col-10 mx-auto col-lg-2">
-               <img src={img} style={{width:'5rem',height:'4.5rem'}}
+               <img src={img} style={{width:'6rem',height:'5rem'}}
                className="img-fluid" alt="блюдо" />
            </div>
            <div className="col-10 mx-auto col-lg-2">
