@@ -10,7 +10,6 @@ const ProductContext = React.createContext();
          detailProduct: detailProduct,
          cart: storeProducts,
          cartSubTotal:0,
-         cartTax:0,
          cartTotal:0
      };
      componentDidMount() {
