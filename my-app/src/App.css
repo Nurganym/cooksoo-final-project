@@ -1,5 +1,5 @@
 :root {
-  --mainBlue:#2a2a72;
+  --mainOrange:#FF8C00;
   --lightBlue:#009ffd;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
@@ -16,10 +16,10 @@ body {
   /* text-transform: uppercase; */
 }
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--mainOrange);
 }
 .text-bright {
-  color:var(--lightBlue);
+  color:var(--mainDark);
 }
 .btn-black {
   background: transparent;
