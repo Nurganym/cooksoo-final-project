@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 export default function CartTotals({value}) {
-    const{cartSubTotal, CartTotal,clearCart} = value;
+    const{cartSubTotal,clearCart} = value;
     return(
         <React.Fragment>
             <div className="container">
@@ -17,15 +17,9 @@ export default function CartTotals({value}) {
                         </Link>
                         <h5>
                             <span className="text-title">
-                                Итог:
-                            </span>
-                            <strong>{cartSubTotal} сом </strong>
-                        </h5>
-                        <h5>
-                            <span className="text-title">
                                 Всего:
                             </span>
-                            <strong>{CartTotal} сом </strong>
+                            <strong>{cartSubTotal} сом </strong>
                         </h5>
                     </div>
                 </div>
