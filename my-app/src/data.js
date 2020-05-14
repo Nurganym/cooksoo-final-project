@@ -77,7 +77,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:7,
+        id:8,
         title: "Лапша вок с курицей",
         img:"img/noodles/img-png/лапша-вок-с-курицей.png",
         price: 180,
@@ -88,7 +88,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:8,
+        id:9,
         title: "Лапша вок с мясом",
         img:"img/noodles/img-png/лапша-вок-с-мясом.png",
         price: 180,
@@ -99,7 +99,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:9,
+        id:10,
         title: "Чапче",
         img:"img/noodles/img-png/чапче.png",
         price: 160,
@@ -110,7 +110,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:10,
+        id:11,
         title: "Бибимкуксу",
         img:"img/noodles/img-png/bibimcooksoo.png",
         price: 170,
@@ -121,7 +121,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:11,
+        id:12,
         title: "Ассорти рамен",
         img:"img/ramen/ramen-png/ассорти-рамен.png",
         price: 190,
@@ -132,7 +132,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:12,
+        id:13,
         title: "Рамен с сыром",
         img:"img/ramen/ramen-png/рамен-с-сыром.png",
         price: 160,
@@ -143,7 +143,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:13,
+        id:14,
         title: "Рамен с яйцом",
         img:"img/ramen/ramen-png/рамен-с-яйцом.png",
         price: 150,
@@ -154,7 +154,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:14,
+        id:15,
         title: "Рамен",
         img:"img/ramen/ramen-png/рамен.png",
         price: 140,
@@ -165,7 +165,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:15,
+        id:16,
         title: "Удон рамен",
         img:"img/ramen/ramen-png/удон-рамен.png",
         price: 170,
@@ -176,7 +176,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:16,
+        id:17,
         title: "Курица с овощами",
         img:"img/rice/rice-png/курица-с-овощами.png",
         price: 180,
@@ -187,7 +187,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:17,
+        id:18,
         title: "Бибимпаб",
         img:"img/rice/rice-png/bibimpab.png",
         price: 180,
@@ -198,7 +198,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:18,
+        id:19,
         title: "Огурцы с мясом",
         img:"img/salad/salad-png/огурцы-с-мясом.png",
         price: 90,
@@ -209,7 +209,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:9,
+        id:20,
         title: "Салат овощной",
         img:"img/salad/salad-png/салат-овощной.png",
         price: 110,
@@ -220,7 +220,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:20,
+        id:21,
         title: "Корн-дог",
         img:"img/snack/corn-dog.png",
         price: 70,
@@ -231,7 +231,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:21,
+        id:22,
         title: "Кимчи-кук",
         img:"img/soup/soup-png/кимчи-кук.png",
         price: 200,
@@ -242,7 +242,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:22,
+        id:23,
         title: "Мие-кук суп",
         img:"img/soup/soup-png/миекук-суп.png",
         price: 200,
@@ -253,7 +253,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:23,
+        id:24,
         title: "Том-ям с креветками",
         img:"img/soup/soup-png/том-ям-с-креветками.png",
         price: 230,
@@ -264,7 +264,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:24,
+        id:25,
         title: "Раппоки",
         img:"img/tokpoki/tokpoki-png/раппоки.png",
         price: 180,
@@ -275,7 +275,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:25,
+        id:26,
         title: "Токпокки с говядиной",
         img:"img/tokpoki/tokpoki-png/токпокки-с-говядиной.png",
         price: 200,
@@ -286,7 +286,7 @@ export const storeProducts = [
         total:0
     },
     {
-        id:24,
+        id:27,
         title: "Токпокки",
         img:"img/tokpoki/tokpoki-png/токпокки.png",
         price: 180,
