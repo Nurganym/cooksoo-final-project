@@ -49,7 +49,7 @@ export default class Details extends Component {
                                   value.addToCart(id)
                               }}
                               >
-                                  {inCart ? "В корзину": "Добавить"}
+                                  {inCart ? "В корзину": "Добавить в корзину"}
                               </ButtonContainer>
                           </div>
                         </div>

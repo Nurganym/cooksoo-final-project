@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import CartForm from './CartForm'
 
 export default function CartTotals({value}) {
     const{cartSubTotal,clearCart,cartToOrder} = value;
@@ -24,7 +25,7 @@ export default function CartTotals({value}) {
                         <Link to="/">
                      <button className="btn btn-outline-danger text-uppercase mb-3 px-5"
                       type="button"
-                      onClick= {() => cartToOrder()}>
+                      onClick= {() => cartToOrder({CartForm})}>
                          заказать
                      </button>
                         </Link>

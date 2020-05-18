@@ -26,7 +26,7 @@ export default class Product extends Component {
                      value.addToCart(id);
                 }}
                 >
-                 {inCart?(<p className="text-capitalize mb-0" disabled> в корзину</p>):(<i class="fa fa-cart-plus"></i>)} 
+                 {inCart?(<p className="text-capitalize mb-0" disabled> в корзину</p>):(<i className="fa fa-cart-plus"></i>)} 
                 </button>
                    </div>
                )}
@@ -61,7 +61,7 @@ const ProductWrapper = styled.div `
 .card {
     border-color:transparent;
     transition: all 1s linear;
-    // background:orange;
+    // background:var(--lightBlue)
 }
 .card-footer {
     background: transparent;
