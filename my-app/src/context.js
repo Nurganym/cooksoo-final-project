@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { storeProducts, detailProduct} from './data';
-import CartForm from './components/Cart/CartForm';
+import Form from './components/Form/CartDelivery';
 const ProductContext = React.createContext();
 //Provider
 //Consumer
@@ -11,6 +11,7 @@ const ProductContext = React.createContext();
          detailProduct: detailProduct,
          cart: [],
          cartSubTotal:0,
+         cartToOrder: []
      };
      componentDidMount() {
          this.setProducts();
@@ -131,11 +132,7 @@ const ProductContext = React.createContext();
              }
          })
      };
-     cartToOrder = () => {
-         this.setState(() =>{
-             return { cartToOrder: CartForm}
-         })
-     }
+   
     render() {
         return(
             <ProductContext.Provider
