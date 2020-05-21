@@ -7,7 +7,7 @@ import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
-import CartDelivery from './components/Form/CartDelivery'
+import UserForm from './components/Form/UserForm'
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
         <Route exact path='/' component={ProductList} />
         <Route path='/details' component={Details} />
         <Route path='/cart' component={Cart} />
-        <Route path='/cartDelivery' component={CartDelivery} />
+        <Route path='/userForm' component={UserForm} />
         <Route component={Default} />
       </Switch>
       </React.Fragment>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { storeProducts, detailProduct} from './data';
+
 const ProductContext = React.createContext();
 //Provider
 //Consumer
@@ -10,6 +11,7 @@ const ProductContext = React.createContext();
          detailProduct: detailProduct,
          cart: [],
          cartSubTotal:0,
+         cartToOrder: []
      };
      componentDidMount() {
          this.setProducts();
@@ -130,6 +132,11 @@ const ProductContext = React.createContext();
              }
          })
      };
+     cartToOrder = () =>{
+        this.setState(() => {
+            return{ cartToOrder: []}
+        })
+     }
    
     render() {
         return(
@@ -142,6 +149,7 @@ const ProductContext = React.createContext();
               decrement:this.decrement,
               removeItem:this.removeItem,
               clearCart:this.clearCart,
+              cartToOrder:this.cartToOrder
             }}>
              {this.props.children}
             </ProductContext.Provider>

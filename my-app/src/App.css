@@ -21,6 +21,9 @@ body {
 .text-bright {
   color:var(--mainDark);
 }
+.text-light-bl{
+color:var(--lightBlue)
+}
 .btn-black {
   background: transparent;
   font-size: 0.8rem !important;
