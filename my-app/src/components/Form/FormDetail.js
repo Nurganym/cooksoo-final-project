@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
+import { Link } from 'react-router-dom'
 
 
 export class FormDetail extends Component {
@@ -9,10 +10,10 @@ export class FormDetail extends Component {
         e.preventDefault();
         this.props.nextStep();
     }
-    back = e => {
-        e.preventDefault();
-        this.props.prevStep();
-    }
+    // back = e => {
+    //     e.preventDefault();
+    //     this.props.prevStep();
+    // }
     render() {
         const { values, handleChange } = this.props;
         return(
@@ -77,12 +78,12 @@ export class FormDetail extends Component {
                 defaultValue={values.comments}
                  />
                  <br/>
+                  <Link to="./cart">
                  <RaisedButton
                      label="назад"
-                     primary={false}
                      style={styles.button}
-                     onClick={this.back}
                  />
+                 </Link>
                  <RaisedButton
                      label="отправить"
                      primary={true}

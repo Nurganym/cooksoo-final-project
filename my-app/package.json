@@ -23,7 +23,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "expected-a-default-case-default-case": "error",
+      "semi": ["warn", "always"]
+    }
   },
   "browserslist": {
     "production": [
@@ -42,6 +46,7 @@
   "devDependencies": {
     "babel-plugin-react-html-attrs": "^3.0.4",
     "cross-env": "^7.0.2",
+    "eslint": "^7.0.0",
     "now": "^19.0.1"
   },
   "author": "",
